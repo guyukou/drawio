@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T02:46:57.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Waj1I3KOAFc8ZQ94t9tP" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T08:21:28.355Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="COwAtzD-x40hY6O3oq9Y" version="20.6.0" type="github">
   <diagram id="P7JamYWp7NVOv1stkI_S" name="Page-1">
-    <mxGraphModel dx="1681" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1471" dy="1834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,8 +134,8 @@
         <mxCell id="owkmpuubnjTbK1H9jRby-66" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;hbg-property-params&lt;/pre&gt;&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;返回Map&amp;lt;String,String&amp;gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1660" y="1110" width="300" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="owkmpuubnjTbK1H9jRby-71" value="SCF1: &lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 15.0667px;&quot;&gt;OpenApiSellHouseServer#modifyHouse&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="60" y="790" width="370" height="30" as="geometry" />
+        <mxCell id="owkmpuubnjTbK1H9jRby-71" value="SCF1: &lt;font face=&quot;JetBrains Mono, monospace&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;OpenApiSellHouseServer#modifyHouse&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="30" y="789" width="430" height="31" as="geometry" />
         </mxCell>
         <mxCell id="owkmpuubnjTbK1H9jRby-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="owkmpuubnjTbK1H9jRby-72" target="owkmpuubnjTbK1H9jRby-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -146,7 +146,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="owkmpuubnjTbK1H9jRby-72" value="&lt;div style=&quot;text-align: left;&quot;&gt;hugopenapi&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="110" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="owkmpuubnjTbK1H9jRby-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="owkmpuubnjTbK1H9jRby-73" target="owkmpuubnjTbK1H9jRby-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -157,10 +157,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="owkmpuubnjTbK1H9jRby-73" value="jikejiaopenapi" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="350" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="owkmpuubnjTbK1H9jRby-78" value="SCF2:&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;IHousePublishService#&lt;/span&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 15.0667px;&quot;&gt;save&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="60" y="830" width="285" height="30" as="geometry" />
+        <mxCell id="owkmpuubnjTbK1H9jRby-78" value="SCF2:&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 16px;&quot;&gt;IHousePublishService#&lt;/span&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;save&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="60" y="830" width="285" height="31" as="geometry" />
         </mxCell>
         <mxCell id="owkmpuubnjTbK1H9jRby-79" value="hbgplatformhouse" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1090" y="240" width="120" height="60" as="geometry" />
@@ -176,8 +176,8 @@
         <mxCell id="owkmpuubnjTbK1H9jRby-80" value="hbgaggregatehouse" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="850" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="owkmpuubnjTbK1H9jRby-81" value="PARAMS1:IRoughHouseCheckService#checkHouseParam" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="423" y="790" width="447" height="30" as="geometry" />
+        <mxCell id="owkmpuubnjTbK1H9jRby-81" value="PARAMS1:IRoughHouseCheckService#checkHouseParam" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="480" y="789" width="447" height="31" as="geometry" />
         </mxCell>
         <mxCell id="owkmpuubnjTbK1H9jRby-84" value="调用PARAMS1参数校验&lt;br&gt;通过才入库" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="687" y="210" width="150" height="80" as="geometry" />
@@ -199,8 +199,8 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="owkmpuubnjTbK1H9jRby-92" value="&lt;font color=&quot;#ff8000&quot;&gt;参数校验+赋默认值&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="850" y="100" width="130" height="30" as="geometry" />
+        <mxCell id="owkmpuubnjTbK1H9jRby-92" value="&lt;font color=&quot;#ff8000&quot;&gt;赋默认值&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="880" y="100" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="owkmpuubnjTbK1H9jRby-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="owkmpuubnjTbK1H9jRby-93" target="owkmpuubnjTbK1H9jRby-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -224,11 +224,11 @@
         <mxCell id="owkmpuubnjTbK1H9jRby-99" value="调用PARAMS2参数校验&lt;br&gt;通过才入库" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="687" y="510" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="owkmpuubnjTbK1H9jRby-100" value="PARAMS2:IPlatHouseOpenCheckService#checkHouseParam" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="430" y="830" width="447" height="30" as="geometry" />
+        <mxCell id="owkmpuubnjTbK1H9jRby-100" value="PARAMS2:IPlatHouseOpenCheckService#checkHouseParam" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="487" y="829" width="447" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="owkmpuubnjTbK1H9jRby-103" value="SCF3:&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 15.0667px;&quot;&gt;ISkuWriteService&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt;&quot;&gt;#&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 15.0667px;&quot;&gt;addCompanySku&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="60" y="870" width="330" height="30" as="geometry" />
+        <mxCell id="owkmpuubnjTbK1H9jRby-103" value="SCF3:&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;ISkuWriteService&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;#&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;addCompanySku&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="60" y="870" width="330" height="31" as="geometry" />
         </mxCell>
         <mxCell id="owkmpuubnjTbK1H9jRby-200" value="方案一（企业、非企业分开存）" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1745" y="120" width="1150" height="480" as="geometry" />
@@ -385,11 +385,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="owkmpuubnjTbK1H9jRby-249" value="SCF4:&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 15.0667px;&quot;&gt;ISkuWriteService&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt;&quot;&gt;#&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 15.0667px;&quot;&gt;updateSkuPart&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="60" y="910" width="330" height="30" as="geometry" />
+        <mxCell id="owkmpuubnjTbK1H9jRby-249" value="SCF4:&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;ISkuWriteService&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;#&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;updateSkuPart&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="60" y="910" width="330" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="S1WS7Dnw3RNSZnDwR1E6-1" value="DEFAULT1:RoughEntity#assemble()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="870" y="790" width="230" height="30" as="geometry" />
+        <mxCell id="S1WS7Dnw3RNSZnDwR1E6-1" value="DEFAULT1:RoughEntity#assemble()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="989.5" y="789" width="280" height="31" as="geometry" />
         </mxCell>
         <mxCell id="S1WS7Dnw3RNSZnDwR1E6-2" value="调用DEFAULT1赋默认值" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="423" y="210" width="150" height="80" as="geometry" />
@@ -400,8 +400,8 @@
             <mxPoint x="650" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S1WS7Dnw3RNSZnDwR1E6-4" value="DEFAULT2:PlatSkuService#save()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="860" y="830" width="230" height="30" as="geometry" />
+        <mxCell id="S1WS7Dnw3RNSZnDwR1E6-4" value="DEFAULT2-2:PlatSkuService#save()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="980" y="870" width="299" height="31" as="geometry" />
         </mxCell>
         <mxCell id="S1WS7Dnw3RNSZnDwR1E6-5" value="调用DEFAULT2赋默认值" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="424" y="510" width="150" height="80" as="geometry" />
@@ -435,6 +435,21 @@
             <mxPoint x="1270" y="370" as="sourcePoint" />
             <mxPoint x="1240" y="320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="S1WS7Dnw3RNSZnDwR1E6-19" value="DEFAULT2-1:PlatSkuPublishApplicationService#init" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="980" y="830" width="409" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="S1WS7Dnw3RNSZnDwR1E6-20" value="调用PARAMS3参数校验&lt;br&gt;通过才入库" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-50" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="S1WS7Dnw3RNSZnDwR1E6-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#000000;exitX=0.463;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.46;entryY=0.872;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="owkmpuubnjTbK1H9jRby-92" target="S1WS7Dnw3RNSZnDwR1E6-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="90" as="sourcePoint" />
+            <mxPoint x="970" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S1WS7Dnw3RNSZnDwR1E6-22" value="PARAMS3:IPropertyCheckService#checkPropertyParams" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="470" y="869" width="447" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
