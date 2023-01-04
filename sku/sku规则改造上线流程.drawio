@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T06:32:14.363Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="A7RkC9QcpmTPGUQYsl_w" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-04T06:41:06.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="Tr6Xiy6nYzHwA-ZwWIDP" type="github">
   <diagram id="y_53rAG5DGesoi1Buwiy" name="Page-1">
-    <mxGraphModel dx="2020" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2020" dy="1908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,7 +23,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-5" value="hbg-property-params" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="110" y="580" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-6" value="hbg-proppub-case" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="270" width="120" height="60" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry x="124" y="410" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-11" value="1.校验逻辑更新：必填-&amp;gt;非必填，部分字段校验规则删除&lt;br&gt;2.锁定逻辑更新：部分字段非企业来源不锁定，否则锁定" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="710" width="320" height="80" as="geometry" />
+          <mxGeometry x="310" y="570" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=39;endSize=6.67;endWidth=31;strokeWidth=1;fontSize=22;verticalAlign=bottom;strokeColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -61,10 +61,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-16" value="关闭营销字段配置" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="120" y="550" width="80" height="80" as="geometry" />
+          <mxGeometry x="680" y="570" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-17" value="&lt;div&gt;/hbg_property_params/enterprise_sku_marketing_switch&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="560" width="370" height="60" as="geometry" />
+          <mxGeometry x="820" y="580" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-19" value="&lt;div&gt;/hbg_platform_house/sku_rule_change_switch&lt;/div&gt;&lt;div&gt;标题等拼接从外围收口到platformhouse&lt;br&gt;sku保存会增加字段来源信息&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="420" width="316" height="60" as="geometry" />
@@ -92,6 +92,20 @@
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-28" value="1.关闭新数据写入" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1130" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_C74lV_GxV1o3IRPBV0W-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=39;endSize=6.67;endWidth=31;strokeWidth=1;fontSize=22;verticalAlign=bottom;strokeColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="35.41" as="sourcePoint" />
+            <mxPoint x="1100" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="418.75" y="35.41" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_C74lV_GxV1o3IRPBV0W-35" value="上线顺序" style="edgeLabel;html=1;align=center;verticalAlign=top;resizable=0;points=[];fontSize=22;" vertex="1" connectable="0" parent="_C74lV_GxV1o3IRPBV0W-34">
+          <mxGeometry x="-0.225" y="-8" relative="1" as="geometry">
+            <mxPoint x="80" y="-23" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
