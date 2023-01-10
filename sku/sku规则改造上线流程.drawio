@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-09T02:59:13.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="PWoUm-b5MrZOjxiJglVO" version="20.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-10T02:07:13.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="mqOtOqnuNkG7Zsv1CtOR" version="20.8.1" type="github">
   <diagram id="y_53rAG5DGesoi1Buwiy" name="Page-1">
-    <mxGraphModel dx="1831" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2099" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,7 +38,7 @@
           <mxGeometry x="925" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-7" value="hbg-raw-house" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-8" value="变更项：去除首付参数校验" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="524" y="90" width="120" height="80" as="geometry" />
@@ -55,7 +55,7 @@
         <mxCell id="_C74lV_GxV1o3IRPBV0W-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=39;endSize=6.67;endWidth=31;strokeWidth=1;fontSize=22;verticalAlign=bottom;strokeColor=default;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="100" as="sourcePoint" />
-            <mxPoint x="40" y="770" as="targetPoint" />
+            <mxPoint x="40" y="1090" as="targetPoint" />
             <Array as="points">
               <mxPoint x="40" y="360" />
             </Array>
@@ -119,12 +119,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-46" value="&lt;span style=&quot;color: rgb(96, 98, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, Arial, sans-serif, don58; font-weight: 700; text-align: left; background-color: rgb(250, 250, 251);&quot;&gt;hbg_scf_jikejiaopenapi&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_C74lV_GxV1o3IRPBV0W-47" value="变更项&lt;br&gt;1.取消建造年代默认值" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="130" y="400" width="120" height="80" as="geometry" />
+          <mxGeometry x="320" y="400" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cUx0VObGmz9LaMdMKPmV-2" value="糙库刷数据" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="cUx0VObGmz9LaMdMKPmV-2" value="糙库重新推数据" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="1310" y="270" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cUx0VObGmz9LaMdMKPmV-5" value="标题&lt;br&gt;房源标签&lt;br&gt;描述3" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;" vertex="1" parent="1">
@@ -132,6 +132,15 @@
         </mxCell>
         <mxCell id="cUx0VObGmz9LaMdMKPmV-10" value="价格" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="930" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cUx0VObGmz9LaMdMKPmV-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cUx0VObGmz9LaMdMKPmV-12" target="cUx0VObGmz9LaMdMKPmV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cUx0VObGmz9LaMdMKPmV-12" value="取消营销库读取覆盖逻辑" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1035" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cUx0VObGmz9LaMdMKPmV-13" value="&lt;div&gt;/hbg_platform_house/sku_rule_change_switch&lt;/div&gt;&lt;div&gt;switcherMarketing: ;;All;&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1125" y="1035" width="295" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
