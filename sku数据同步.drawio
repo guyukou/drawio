@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T06:17:24.578Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="U30yhcDIrU4a7BSKpPP6" version="20.8.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-14T08:56:34.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qrRWNNshwYq0MiZc8mGW" version="20.8.13" type="github" pages="3">
   <diagram id="P7JamYWp7NVOv1stkI_S" name="Page-1">
     <mxGraphModel dx="2658" dy="2960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -491,7 +491,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XvUTnmdgk_F9wtxAoJrS" name="糙库openapi保存房源">
+  <diagram id="XvUTnmdgk_F9wtxAoJrS" name="jikejiaopenapi保存房源">
     <mxGraphModel dx="1468" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -818,7 +818,7 @@
             <mxRectangle width="230" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hu5vHJQlRSYpzsSH7Wvr-98" value="服务方接口com.anjuke.rawhouse.contract.IHousePublishService#save" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="hu5vHJQlRSYpzsSH7Wvr-96">
+        <mxCell id="hu5vHJQlRSYpzsSH7Wvr-98" value="服务方接口 com.anjuke.rawhouse.contract.IHousePublishService#save" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="hu5vHJQlRSYpzsSH7Wvr-96">
           <mxGeometry x="230" width="640" height="40" as="geometry">
             <mxRectangle width="640" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -828,6 +828,29 @@
             <mxPoint x="300" y="1270" as="sourcePoint" />
             <mxPoint x="449.9999999999999" y="1260.935" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lsVLfoItIWFfLqLz_4Wy" name="糙库保存房源">
+    <mxGraphModel dx="954" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GbOnXP3X7AkYW3irf7g0-1" value="109654" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GbOnXP3X7AkYW3irf7g0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="GbOnXP3X7AkYW3irf7g0-2" target="GbOnXP3X7AkYW3irf7g0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbOnXP3X7AkYW3irf7g0-2" value="写mysql" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GbOnXP3X7AkYW3irf7g0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="GbOnXP3X7AkYW3irf7g0-3" target="GbOnXP3X7AkYW3irf7g0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GbOnXP3X7AkYW3irf7g0-3" value="写wtable" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
