@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-24T01:58:51.074Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xurMmzyeTZjZXIOCs66a" version="20.8.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-24T08:19:04.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VxLOWRPSa0z6Oa-71WLa" version="20.8.13" type="github" pages="2">
   <diagram id="eJTh8XYiwRgBAhzvWBTp" name="Page-1">
     <mxGraphModel dx="1781" dy="2929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -321,17 +321,6 @@
         <mxCell id="ELgiT_MH_dTm0ENp9dKa-24" value="109654" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2070" y="-1540" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ELgiT_MH_dTm0ENp9dKa-27" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
-          <mxGeometry x="1720" y="-1800" width="630" height="230" as="geometry">
-            <mxRectangle x="1720" y="-1800" width="50" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ELgiT_MH_dTm0ENp9dKa-28" value="糙库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="ELgiT_MH_dTm0ENp9dKa-27" vertex="1">
-          <mxGeometry x="20" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ELgiT_MH_dTm0ENp9dKa-25" value="糙库变更" style="rounded=1;whiteSpace=wrap;html=1;" parent="ELgiT_MH_dTm0ENp9dKa-27" vertex="1">
-          <mxGeometry x="330" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="ELgiT_MH_dTm0ENp9dKa-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ELgiT_MH_dTm0ENp9dKa-32" target="ELgiT_MH_dTm0ENp9dKa-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -520,6 +509,9 @@
           <mxGeometry x="361" width="119" height="46" as="geometry">
             <mxRectangle width="119" height="46" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ELgiT_MH_dTm0ENp9dKa-25" value="糙库变更" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2050" y="-1700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
