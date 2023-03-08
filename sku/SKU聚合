@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T15:18:37.779Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-MsP7eIvNv0X4E2_1a72" version="21.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-08T01:49:02.935Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="TmjQiA9xLWfzfxuQgqUe" version="21.0.2" type="github" pages="6">
   <diagram id="eJTh8XYiwRgBAhzvWBTp" name="挂靠关系">
     <mxGraphModel dx="4412" dy="4266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -308,25 +308,25 @@
         <mxCell id="IhV7qkMbCVMJVmVVuTGT-7" value="不同公司" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="344" y="70" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SrVmHD83Osj5c-Ruruj6-10" value="&lt;h1&gt;公司与公司&lt;/h1&gt;&lt;p&gt;不同公司之间有时候会同步将自己的房同步到对方或者反过来，当一家公司只需要同步一家公司的房子时，关联关系就是自家的房id + 对方的房id，但如果需要同步多家公司的房时，则需要用对方的公司 + 房id放在关联关系中，以我公司58为例，我们对外部每家公司都有建模，甚至有多套，但是不论哪一套公司体系，同一家公司都有一个唯一id，如CRM有自己的CRM公司id，三网有三网公司id，门店有门店id&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="590" width="730" height="160" as="geometry" />
+        <mxCell id="SrVmHD83Osj5c-Ruruj6-10" value="&lt;h1&gt;公司与公司&lt;/h1&gt;&lt;p&gt;不同公司之间有时候会将自己的房同步到对方或者反过来，当一家公司只需要同步一家公司的房子时，关联关系就是自家的房id + 对方的房id，但如果需要同步多家公司的房时，则需要用对方的公司 + 房id放在关联关系中，以我公司58为例，我们对外部每家公司都有建模，甚至有多套，但是不论哪一套公司体系，同一家公司都有一个唯一id，如CRM有自己的CRM公司id，三网有三网公司id，门店有门店id&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="570" width="730" height="130" as="geometry" />
         </mxCell>
         <mxCell id="SrVmHD83Osj5c-Ruruj6-11" value="&lt;h1&gt;房&lt;/h1&gt;&lt;p&gt;现实世界中，每一套房都是独一无二的，所以在一家房产公司的软件中，这套房的建模结果一定有一个唯一id用来和其他房进行区分。在58房产中，楼盘字典就是用来维护这样的id的。&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-30" y="465" width="600" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="SrVmHD83Osj5c-Ruruj6-12" value="房子的映射关系" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="-30" y="720" width="140" height="50" as="geometry">
-            <mxRectangle x="-30" y="720" width="160" height="120" as="alternateBounds" />
+        <mxCell id="SrVmHD83Osj5c-Ruruj6-12" value="房子的映射关系" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="720" width="160" height="120" as="geometry">
+            <mxRectangle x="-30" y="720" width="140" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SrVmHD83Osj5c-Ruruj6-13" value="+58房id&lt;br&gt;+外部公司id&lt;br&gt;+外部公司房id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="SrVmHD83Osj5c-Ruruj6-12">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SrVmHD83Osj5c-Ruruj6-14" value="&lt;h1&gt;房在58一生&lt;/h1&gt;&lt;p&gt;外部公司将房源同步58，便可以在58提供的公司房源列表进行管理，可以编辑房源的物理属性、营销信息、媒体信息等。&lt;/p&gt;&lt;p&gt;物理属性：房本身的属性，不受外部因素影响，比如房子的朝向、所在楼层、几室几厅几卫都是与生俱来，不会因为哪个公司就变化，当然公司有其权利维护自己的信息。&lt;/p&gt;&lt;p&gt;营销信息：公司是要将房子卖出去为目的的，在网络上，买家看到的关于房的信息除了物理信息，还有房子的简介（标题），详细信息、图片、视频、VR等。&lt;/p&gt;&lt;p&gt;但是如果公司随意填写房子的信息，对买家造成困扰，这会是平台希望看到的吗？一定不是，平台需要一个长期健康的环境才能够生存下去。&lt;/p&gt;&lt;p&gt;在58房产系统里，外部公司同步进来的房子会经历多个阶段，分别是待完善阶段、完善阶段、核验通过阶段。&lt;/p&gt;&lt;p&gt;待完善阶段：刚同步进来的房，可能有些信息不全面，需要手动补充完善&lt;/p&gt;&lt;p&gt;完善阶段：sku&lt;/p&gt;&lt;p&gt;核验通过阶段：符合售卖条件，具备在C端展示的前提&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="810" width="720" height="310" as="geometry" />
+          <mxGeometry x="-30" y="850" width="720" height="310" as="geometry" />
         </mxCell>
         <mxCell id="SrVmHD83Osj5c-Ruruj6-15" value="&lt;h1&gt;聚合&lt;/h1&gt;&lt;p&gt;909模式下，c端呈现的房源列表不再是人维度发布的房源贴信息，而且公司名义下的房源信息。以同一套房为例，无论这家公司有多少经纪人发布的该房的帖子，也不论公司房源有多少该房的记录，在c端只会展现一次。&lt;/p&gt;&lt;p&gt;这种将多条房源信息合并为1个房源信息就需要“聚合”来实现。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="1150" width="600" height="120" as="geometry" />
+          <mxGeometry x="-30" y="1169" width="600" height="120" as="geometry" />
         </mxCell>
         <mxCell id="SrVmHD83Osj5c-Ruruj6-17" value="&lt;h1&gt;参与聚合的房源种类&lt;/h1&gt;&lt;p&gt;大的方向分为公司名义录入的房源信息、和经纪人个人录入的房源信息。细分的话，公司录入的房源信息包括&lt;/p&gt;&lt;p&gt;openapi录入&lt;/p&gt;&lt;p&gt;巧房录入&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;经纪人个人录入的房源信息包括&lt;/p&gt;&lt;p&gt;三网发布&lt;/p&gt;&lt;p&gt;企业库认领&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-30" y="1300" width="490" height="280" as="geometry" />
@@ -581,7 +581,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="isaI3KSLoz9-FuXCfWFY" name="聚合">
-    <mxGraphModel dx="1222" dy="3439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="908" dy="3413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
