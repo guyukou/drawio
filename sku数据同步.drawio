@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-13T01:52:20.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="9RdJwWhmiS3fb2SgWrak" version="21.0.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-13T01:53:27.455Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="v7MqVrjKgadGODgZopAf" version="21.0.2" type="github" pages="4">
   <diagram id="P7JamYWp7NVOv1stkI_S" name="Page-1">
-    <mxGraphModel dx="3059" dy="3033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6424" dy="5293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -491,7 +491,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="XvUTnmdgk_F9wtxAoJrS" name="jikejiaopenapi保存房源">
+  <diagram id="XvUTnmdgk_F9wtxAoJrS" name="jikejiaopenapi保存房源【归档】">
     <mxGraphModel dx="1363" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -804,7 +804,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dd2L3U0Hl-sOzuJoVa_m" name="企业内网推送数据">
-    <mxGraphModel dx="1887" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5597" dy="2955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1488,29 +1488,6 @@
         </mxCell>
         <mxCell id="oizJED_V13vUGuzPYwag-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="oizJED_V13vUGuzPYwag-129" source="oizJED_V13vUGuzPYwag-137" target="oizJED_V13vUGuzPYwag-139">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="lsVLfoItIWFfLqLz_4Wy" name="糙库保存房源">
-    <mxGraphModel dx="1363" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="GbOnXP3X7AkYW3irf7g0-1" value="109654" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="220" y="380" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="GbOnXP3X7AkYW3irf7g0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" parent="1" source="GbOnXP3X7AkYW3irf7g0-2" target="GbOnXP3X7AkYW3irf7g0-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GbOnXP3X7AkYW3irf7g0-2" value="写mysql" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="200" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GbOnXP3X7AkYW3irf7g0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontColor=#000000;" parent="1" source="GbOnXP3X7AkYW3irf7g0-3" target="GbOnXP3X7AkYW3irf7g0-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GbOnXP3X7AkYW3irf7g0-3" value="写wtable" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
