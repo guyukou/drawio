@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-20T03:11:27.408Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="X-Y1chC7PeN-htguv5Ir" version="21.0.6" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2023-03-20T03:13:17.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="glPsJR6qWEL5_ZozKIfQ" version="21.0.6" type="github" pages="24">
   <diagram id="eJTh8XYiwRgBAhzvWBTp" name="挂靠关系">
     <mxGraphModel dx="1733" dy="2993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3363,9 +3363,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3TdujjCo1wCi_8Q6palM-9" value="判断帖子是否需要同步&lt;br&gt;如何同步？用的哪个接口&lt;br&gt;同步失败的情况" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="150" y="940" width="160" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="3TdujjCo1wCi_8Q6palM-10" value="SKU同步帖子" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="10" width="1220" height="1160" as="geometry" />
         </mxCell>
