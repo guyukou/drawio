@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T08:52:01.823Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="SuWVKNgmmMA6zEnP8jZC" version="21.0.10" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-24T08:52:46.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="bwYnqqrE2LZXLyV7cJ6R" version="21.0.10" type="github" pages="7">
   <diagram id="mey1MHfAKC_7dUtGumwE" name="实体模型">
     <mxGraphModel dx="906" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -641,7 +641,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="z9YSSFYcavWb7XginIYU" name="流程-认领">
-    <mxGraphModel dx="1133" dy="1988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1394" dy="2177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -820,7 +820,7 @@
         <mxCell id="VCzryZY2gzaJh8OakyS2-9" value="政府核验相关查询" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" parent="VCzryZY2gzaJh8OakyS2-4" vertex="1">
           <mxGeometry x="74.99999999999955" y="785.63" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rLwi3RZFavHvzvcMMhHo-52" value="核验结果更新到帖子" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="VCzryZY2gzaJh8OakyS2-4">
+        <mxCell id="rLwi3RZFavHvzvcMMhHo-52" value="核验结果更新到帖子&lt;br&gt;（同步操作）" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="VCzryZY2gzaJh8OakyS2-4">
           <mxGeometry x="70.99999999999955" y="1130" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rLwi3RZFavHvzvcMMhHo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.147;entryY=0.903;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="VCzryZY2gzaJh8OakyS2-1" source="rLwi3RZFavHvzvcMMhHo-3" target="rLwi3RZFavHvzvcMMhHo-4">
