@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T02:13:14.536Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="Ph77D0vHgWm9pJJ3s1cb" version="21.1.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-25T02:16:02.429Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="8e2aa-xj238HnVwH_7zN" version="21.1.0" type="github" pages="6">
   <diagram id="mey1MHfAKC_7dUtGumwE" name="实体模型">
     <mxGraphModel dx="1812" dy="1310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -436,7 +436,7 @@
         <mxCell id="5AY-f0JQc4aLd5sdKTst-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5AY-f0JQc4aLd5sdKTst-3" source="5AY-f0JQc4aLd5sdKTst-61" target="5AY-f0JQc4aLd5sdKTst-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5AY-f0JQc4aLd5sdKTst-61" value="保存素材" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" parent="5AY-f0JQc4aLd5sdKTst-3" vertex="1">
+        <mxCell id="5AY-f0JQc4aLd5sdKTst-61" value="送审" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" parent="5AY-f0JQc4aLd5sdKTst-3" vertex="1">
           <mxGeometry x="44" y="830" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5AY-f0JQc4aLd5sdKTst-66" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;" parent="5AY-f0JQc4aLd5sdKTst-3" vertex="1">
@@ -451,9 +451,6 @@
         <mxCell id="5AY-f0JQc4aLd5sdKTst-28" value="帖子与SKU关系接口" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" parent="5AY-f0JQc4aLd5sdKTst-7" vertex="1">
           <mxGeometry x="60" y="670" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5AY-f0JQc4aLd5sdKTst-62" value="素材写入接口" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" parent="5AY-f0JQc4aLd5sdKTst-7" vertex="1">
-          <mxGeometry x="60" y="830" width="140" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="5AY-f0JQc4aLd5sdKTst-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5AY-f0JQc4aLd5sdKTst-1" source="5AY-f0JQc4aLd5sdKTst-10" target="5AY-f0JQc4aLd5sdKTst-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -464,9 +461,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5AY-f0JQc4aLd5sdKTst-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="5AY-f0JQc4aLd5sdKTst-1" source="5AY-f0JQc4aLd5sdKTst-27" target="5AY-f0JQc4aLd5sdKTst-28" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5AY-f0JQc4aLd5sdKTst-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="5AY-f0JQc4aLd5sdKTst-1" source="5AY-f0JQc4aLd5sdKTst-61" target="5AY-f0JQc4aLd5sdKTst-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5AY-f0JQc4aLd5sdKTst-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5AY-f0JQc4aLd5sdKTst-9" target="5AY-f0JQc4aLd5sdKTst-10" edge="1">
