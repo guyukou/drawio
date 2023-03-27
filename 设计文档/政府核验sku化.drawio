@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T06:42:40.594Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="kDtTcnQhkVoz44icuNBO" version="21.1.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-27T06:47:02.098Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="DC4dumW8qX6sJXlkogt_" version="21.1.0" type="github" pages="6">
   <diagram id="mey1MHfAKC_7dUtGumwE" name="实体模型">
     <mxGraphModel dx="906" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -784,21 +784,6 @@
         <mxCell id="i3s__3qXO7mYZfCFWLe2-19" value="" style="rhombus;" parent="0tMMYvkq8tXhul_3WEmx-4" vertex="1">
           <mxGeometry x="109.99999999999955" y="190" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i3s__3qXO7mYZfCFWLe2-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="0tMMYvkq8tXhul_3WEmx-4" source="i3s__3qXO7mYZfCFWLe2-28" target="i3s__3qXO7mYZfCFWLe2-29" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="i3s__3qXO7mYZfCFWLe2-28" value="查找挂靠贴" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="0tMMYvkq8tXhul_3WEmx-4" vertex="1">
-          <mxGeometry x="230" y="185" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="i3s__3qXO7mYZfCFWLe2-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="0tMMYvkq8tXhul_3WEmx-4" source="i3s__3qXO7mYZfCFWLe2-29" target="i3s__3qXO7mYZfCFWLe2-30" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="i3s__3qXO7mYZfCFWLe2-29" value="筛选需要更新的帖子" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="0tMMYvkq8tXhul_3WEmx-4" vertex="1">
-          <mxGeometry x="230" y="290" width="140" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="i3s__3qXO7mYZfCFWLe2-30" value="更新帖子核验状态" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="0tMMYvkq8tXhul_3WEmx-4" vertex="1">
-          <mxGeometry x="230" y="430" width="140" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="i3s__3qXO7mYZfCFWLe2-39" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;使用skuId+storeId查询挂靠贴&lt;br&gt;&lt;ul&gt;&lt;li&gt;对于司sku变更，没有storeId，相当于查所有挂靠贴&lt;/li&gt;&lt;li&gt;对于店sku变更，含有sotreId，相当于查指定门店的挂靠贴&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="0tMMYvkq8tXhul_3WEmx-4" vertex="1">
           <mxGeometry x="450" y="165" width="370" height="80" as="geometry" />
         </mxCell>
@@ -806,15 +791,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="260" as="sourcePoint" />
             <mxPoint x="460" y="205" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="i3s__3qXO7mYZfCFWLe2-41" value="帖子有1056即满足筛选条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="0tMMYvkq8tXhul_3WEmx-4" vertex="1">
-          <mxGeometry x="460" y="295" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="i3s__3qXO7mYZfCFWLe2-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="0tMMYvkq8tXhul_3WEmx-4" source="i3s__3qXO7mYZfCFWLe2-29" target="i3s__3qXO7mYZfCFWLe2-41" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="380" as="sourcePoint" />
-            <mxPoint x="520" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7-1k06mgx0j9BBZJgrlB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0tMMYvkq8tXhul_3WEmx-4" source="7-1k06mgx0j9BBZJgrlB-4" target="i3s__3qXO7mYZfCFWLe2-19">
@@ -828,6 +804,33 @@
         </mxCell>
         <mxCell id="7-1k06mgx0j9BBZJgrlB-7" value="店sku更新job" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="0tMMYvkq8tXhul_3WEmx-4">
           <mxGeometry x="55" y="270" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7-1k06mgx0j9BBZJgrlB-14" value="同步政府核验状态service" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0tMMYvkq8tXhul_3WEmx-4">
+          <mxGeometry x="250" y="120" width="560" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="i3s__3qXO7mYZfCFWLe2-28" value="查找挂靠贴" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="7-1k06mgx0j9BBZJgrlB-14" vertex="1">
+          <mxGeometry x="30" y="65" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i3s__3qXO7mYZfCFWLe2-29" value="筛选需要更新的帖子" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="7-1k06mgx0j9BBZJgrlB-14" vertex="1">
+          <mxGeometry x="30" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i3s__3qXO7mYZfCFWLe2-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="7-1k06mgx0j9BBZJgrlB-14" source="i3s__3qXO7mYZfCFWLe2-28" target="i3s__3qXO7mYZfCFWLe2-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i3s__3qXO7mYZfCFWLe2-30" value="更新帖子核验状态" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="7-1k06mgx0j9BBZJgrlB-14" vertex="1">
+          <mxGeometry x="30" y="310" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i3s__3qXO7mYZfCFWLe2-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="7-1k06mgx0j9BBZJgrlB-14" source="i3s__3qXO7mYZfCFWLe2-29" target="i3s__3qXO7mYZfCFWLe2-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i3s__3qXO7mYZfCFWLe2-41" value="帖子有1056即满足筛选条件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="7-1k06mgx0j9BBZJgrlB-14" vertex="1">
+          <mxGeometry x="220" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i3s__3qXO7mYZfCFWLe2-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="7-1k06mgx0j9BBZJgrlB-14" source="i3s__3qXO7mYZfCFWLe2-29" target="i3s__3qXO7mYZfCFWLe2-41" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="260" as="sourcePoint" />
+            <mxPoint x="270" y="210" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="i3s__3qXO7mYZfCFWLe2-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="0tMMYvkq8tXhul_3WEmx-1" source="i3s__3qXO7mYZfCFWLe2-30" target="i3s__3qXO7mYZfCFWLe2-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
