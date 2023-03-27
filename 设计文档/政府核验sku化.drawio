@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T06:40:25.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="nQ1iK6hLY7mmqJZyK3kQ" version="21.1.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-03-27T06:42:40.594Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.51" etag="kDtTcnQhkVoz44icuNBO" version="21.1.0" type="github" pages="6">
   <diagram id="mey1MHfAKC_7dUtGumwE" name="实体模型">
     <mxGraphModel dx="906" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -691,7 +691,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="r27kQgDRBTIiv01mprlT" name="流程-sku自动同步政府核验状态到帖子">
-    <mxGraphModel dx="816" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2097" dy="1871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -838,7 +838,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7-1k06mgx0j9BBZJgrlB-1" value="图例" style="swimlane;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="750" width="200" height="200" as="geometry" />
+          <mxGeometry x="1370" y="750" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7-1k06mgx0j9BBZJgrlB-2" value="不变模块" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="7-1k06mgx0j9BBZJgrlB-1">
           <mxGeometry x="30" y="40" width="140" height="40" as="geometry" />
