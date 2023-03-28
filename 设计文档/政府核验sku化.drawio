@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T08:16:05.925Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="ET1ulyeFU9N21aJFknZW" version="21.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-28T08:17:00.269Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="lEqzkI83zMkwzyMXMBHO" version="21.1.1" type="github" pages="8">
   <diagram id="mey1MHfAKC_7dUtGumwE" name="实体模型">
     <mxGraphModel dx="863" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sC7xbu4gCDekgdnwXApt" name="整体架构">
-    <mxGraphModel dx="1394" dy="2177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1133" dy="1988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,10 +176,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IWZO4s4Wf5B32acxKAgJ-14" value="政府核验" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="-60" width="200" height="200" as="geometry" />
+          <mxGeometry x="850" y="-240" width="200" height="380" as="geometry" />
         </mxCell>
         <mxCell id="IWZO4s4Wf5B32acxKAgJ-31" value="审核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IWZO4s4Wf5B32acxKAgJ-14">
-          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IWZO4s4Wf5B32acxKAgJ-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IWZO4s4Wf5B32acxKAgJ-46" target="IWZO4s4Wf5B32acxKAgJ-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -229,12 +229,18 @@
         <mxCell id="IWZO4s4Wf5B32acxKAgJ-24" value="企业库对接&lt;br&gt;jikejia_openapi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IWZO4s4Wf5B32acxKAgJ-46">
           <mxGeometry x="139" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IWZO4s4Wf5B32acxKAgJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IWZO4s4Wf5B32acxKAgJ-40" target="IWZO4s4Wf5B32acxKAgJ-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="IWZO4s4Wf5B32acxKAgJ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IWZO4s4Wf5B32acxKAgJ-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="-100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="337" y="-100" />
+              <mxPoint x="850" y="-100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IWZO4s4Wf5B32acxKAgJ-48" value="5.调用接口同步到帖子" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IWZO4s4Wf5B32acxKAgJ-47">
           <mxGeometry x="0.5731" y="-2" relative="1" as="geometry">
-            <mxPoint x="-46" as="offset" />
+            <mxPoint x="34" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="K5wQlO8wHwuV8JAZi0_d-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.275;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="IWZO4s4Wf5B32acxKAgJ-40" target="IWZO4s4Wf5B32acxKAgJ-16">
