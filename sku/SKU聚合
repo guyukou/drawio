@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T03:11:05.570Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="xTNVjwtGWHPBJk6_w25z" version="21.1.1" type="github" pages="26">
+<mxfile host="app.diagrams.net" modified="2023-03-30T07:36:38.679Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="XKgy9V96ZxyEiZZk0TCL" version="21.1.1" type="github" pages="27">
   <diagram id="eJTh8XYiwRgBAhzvWBTp" name="挂靠关系">
     <mxGraphModel dx="1561" dy="2993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3953,7 +3953,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pYeCnuoR7wgO4d5kABP-" name="聚合sku同步">
-    <mxGraphModel dx="1412" dy="1592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2924" dy="3040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4183,8 +4183,12 @@
         <mxCell id="uFcXcFNc37v1ZilnlGY4-46" value="更新platform_house_base的skuId" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-280" y="1200" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5mGLe_Xx-2BHHjROHsyQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pC_RDP1Q4kInAh9qGtwd-1" target="5mGLe_Xx-2BHHjROHsyQ-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5mGLe_Xx-2BHHjROHsyQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pC_RDP1Q4kInAh9qGtwd-1" target="5mGLe_Xx-2BHHjROHsyQ-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-210" y="1535" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pC_RDP1Q4kInAh9qGtwd-1" value="回填关系表skuId" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-280" y="1300" width="140" height="40" as="geometry" />
@@ -4206,7 +4210,7 @@
         <mxCell id="5mGLe_Xx-2BHHjROHsyQ-8" value="全核验" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="-60" y="1100" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5mGLe_Xx-2BHHjROHsyQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5mGLe_Xx-2BHHjROHsyQ-9" target="5mGLe_Xx-2BHHjROHsyQ-34">
+        <mxCell id="5mGLe_Xx-2BHHjROHsyQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5mGLe_Xx-2BHHjROHsyQ-9" target="5mGLe_Xx-2BHHjROHsyQ-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5mGLe_Xx-2BHHjROHsyQ-9" value="回填关系表skuId" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="1">
@@ -4231,13 +4235,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5mGLe_Xx-2BHHjROHsyQ-34" value="" style="rhombus;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="1520" width="30" height="30" as="geometry" />
+          <mxGeometry x="105" y="1520" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5mGLe_Xx-2BHHjROHsyQ-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5mGLe_Xx-2BHHjROHsyQ-37" target="5mGLe_Xx-2BHHjROHsyQ-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5mGLe_Xx-2BHHjROHsyQ-37" value="sku同步其他内容" style="html=1;dashed=0;rounded=1;absoluteArcSize=1;arcSize=20;verticalAlign=middle;align=center;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-255" y="1660" width="160" height="50" as="geometry" />
+          <mxGeometry x="40" y="1660" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5mGLe_Xx-2BHHjROHsyQ-38" value="*" style="text;resizeWidth=0;resizeHeight=0;points=[];part=1;verticalAlign=middle;align=center;html=1;" vertex="1" parent="5mGLe_Xx-2BHHjROHsyQ-37">
           <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
@@ -4336,7 +4340,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5mGLe_Xx-2BHHjROHsyQ-68" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="1770" width="30" height="30" as="geometry" />
+          <mxGeometry x="105" y="1770" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5mGLe_Xx-2BHHjROHsyQ-70" value="skuId=0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="940" width="60" height="30" as="geometry" />
@@ -4349,6 +4353,54 @@
         </mxCell>
         <mxCell id="5mGLe_Xx-2BHHjROHsyQ-72" value="platsku更新企业sku" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="-480" width="200" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6TJFJlmEZ6u_WZNVOZDC" name="企业sku删除">
+    <mxGraphModel dx="734" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Ryw_Xo5dcfJDrNd3WdN-3" value="企业sku（核验通过）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Ryw_Xo5dcfJDrNd3WdN-4" value="帖子1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Ryw_Xo5dcfJDrNd3WdN-5" value="帖子2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Ryw_Xo5dcfJDrNd3WdN-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="-Ryw_Xo5dcfJDrNd3WdN-4" target="-Ryw_Xo5dcfJDrNd3WdN-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="300" as="sourcePoint" />
+            <mxPoint x="260" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Ryw_Xo5dcfJDrNd3WdN-8" value="认领" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Ryw_Xo5dcfJDrNd3WdN-6">
+          <mxGeometry x="0.0268" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Ryw_Xo5dcfJDrNd3WdN-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-Ryw_Xo5dcfJDrNd3WdN-5" target="-Ryw_Xo5dcfJDrNd3WdN-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="126" y="320" as="sourcePoint" />
+            <mxPoint x="194" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Ryw_Xo5dcfJDrNd3WdN-9" value="聚合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-Ryw_Xo5dcfJDrNd3WdN-7">
+          <mxGeometry x="0.0695" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Ryw_Xo5dcfJDrNd3WdN-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="270" as="sourcePoint" />
+            <mxPoint x="550" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Ryw_Xo5dcfJDrNd3WdN-11" value="企业sku删除" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="235" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
