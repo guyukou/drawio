@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T13:11:48.602Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="IWiQjcVQtX1ar4miWQKW" version="21.1.2" type="github" pages="28">
+<mxfile host="app.diagrams.net" modified="2023-04-01T14:07:06.205Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="rKB807zbDHXkczKxwyqW" version="21.1.2" type="github" pages="28">
   <diagram id="eJTh8XYiwRgBAhzvWBTp" name="挂靠关系">
-    <mxGraphModel dx="1561" dy="2993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1733" dy="2993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3580,7 +3580,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fmCUIGGhCDOKgA8M9rMn" name="聚合挂靠关系同步">
-    <mxGraphModel dx="3670" dy="3275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="906" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3953,7 +3953,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pYeCnuoR7wgO4d5kABP-" name="聚合sku同步">
-    <mxGraphModel dx="2162" dy="2360" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2560" dy="2213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4354,11 +4354,20 @@
         <mxCell id="5mGLe_Xx-2BHHjROHsyQ-72" value="platsku更新企业sku" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="-480" width="200" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="_o4j-G1D-mUPjBwqkcb1-1" value="会再次触发挂靠关系同步" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1380" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_o4j-G1D-mUPjBwqkcb1-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.083;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5mGLe_Xx-2BHHjROHsyQ-9" target="_o4j-G1D-mUPjBwqkcb1-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="1410" as="sourcePoint" />
+            <mxPoint x="90" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="6TJFJlmEZ6u_WZNVOZDC" name="企业sku删除">
-    <mxGraphModel dx="734" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="906" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4406,7 +4415,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3kXRJxn1O0nU7p1Nxpl3" name="消息视图">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="906" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
